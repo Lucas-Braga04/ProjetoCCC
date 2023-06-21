@@ -6,6 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Lucas Braga, Adriano Silva, Pablo Rodrigues, Victor de Moraes",
   "license": "MIT"
 }
