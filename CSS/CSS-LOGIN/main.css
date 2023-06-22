@@ -10,7 +10,12 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #030E4F;
+}
+
+.tela-login hr {
+    width: 90%;
+    margin-top: -10px;
+    color: #F49F1C
 }
 
 .tela-login {
@@ -21,25 +26,12 @@ main {
     height: auto;
     box-shadow: 0px 7px 15px 1px #00000073;
     border-radius: 10px;
-    background-color: #F49F1C;
-}
-
-.form-control {
-    background-color: #F49F1C;
 }
 
 #input-email {
-    background-color: #F49F1C;
     color: #030E4F;
     border-color: #030E4F;
-    border-radius: 10px;
-    border: 1px solid #030E4F;
-}
 
-#input-senha {
-    background-color: #F49F1C;
-    border-radius: 10px;
-    border: 1px solid #030E4F;
 }
 
 #btn-login {
@@ -53,12 +45,12 @@ main {
 .tela-login h1 {
     margin-top: 35px;
     margin-bottom: 30px;
-    color: #030E4F;
+    color: #F49F1C;
 }
 
 .tela-login a {
     font-size: 18px;
-    color: #030E4F;
+    color: #f49f1c;
 }
 
 .tela-login label {
@@ -78,7 +70,8 @@ main {
 
 .tela-login div input {
     border: none;
-    border-left: 1px solid #00000060;
+    border-left: 1px solid #030E4F;
+    border-right: 1px solid #030E4F;
     border-radius: 0px;
 }
 
