@@ -43,3 +43,69 @@ main {
     position: absolute;
     margin: 50px;
 }
+
+.container {
+    position: relative;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.galeria-wrapper {
+    overflow-x: auto;
+
+}
+
+.galeria-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.galeria-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.galeria {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.arrow-left i,
+.arrow-right i {
+    font-size: 25px;
+}
+
+.item {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    flex-shrink: 0;
+    opacity: 0.5;
+}
+
+.current-item {
+    opacity: 1;
+}
