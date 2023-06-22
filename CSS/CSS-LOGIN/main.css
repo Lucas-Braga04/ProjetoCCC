@@ -34,6 +34,16 @@ main {
     margin-bottom: 10px;
 }
 
+.tela-login div input {
+    border: none;
+    border-bottom: 1px solid #00000060;
+    border-radius: 0px;
+}
+
+.tela-login div input::placeholder {
+    font-size: 13px;
+}
+
 .ipt-email {
     width: 90%;
 }
