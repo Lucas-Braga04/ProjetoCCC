@@ -28,18 +28,23 @@ main {
     background-color: #F49F1C;
 }
 
-#input-email{
+#input-email {
     background-color: #F49F1C;
     color: #030E4F;
     border-color: #030E4F;
+    border-radius: 10px;
+    border: 1px solid #030E4F;
 }
 
-#input-senha{
+#input-senha {
     background-color: #F49F1C;
-    border-color: #030E4F;
+    border-radius: 10px;
+    border: 1px solid #030E4F;
 }
 
-#btn-login{
+#btn-login {
+    margin-top: 30px;
+    width: 90%;
     background-color: #030E4F;
     color: #F49F1C;
     border: none;
@@ -48,21 +53,22 @@ main {
 .tela-login h1 {
     margin-top: 35px;
     margin-bottom: 30px;
-}
-
-.tela-login a{
     color: #030E4F;
 }
 
-.tela-login h1{
+.tela-login a {
+    font-size: 18px;
     color: #030E4F;
 }
 
-.tela-login label{
+.tela-login label {
+    font-size: 18px;
+    padding-top: 12px;
     color: #030E4F;
 }
 
 .tela-login span {
+    font-size: 18px;
     margin-top: 10px;
     align-self: flex-start;
     margin-left: 34px;
@@ -86,12 +92,6 @@ main {
 
 .ipt-senha {
     width: 90%;
-}
-
-#btn-login {
-    margin-top: 30px;
-    width: 90%;
-
 }
 
 @media (max-width: 768px) {
