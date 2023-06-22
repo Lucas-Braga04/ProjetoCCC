@@ -10,6 +10,11 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #030E4F;
+}
+
+main a{
+    color: #030E4F;
 }
 
 .tela-login {
@@ -20,7 +25,27 @@ main {
     height: auto;
     box-shadow: 0px 7px 15px 1px #00000073;
     border-radius: 10px;
+    background-color: #F49F1C;
 }
+
+.form-control {
+    background-color: #F49F1C;
+}
+
+#input-email{
+    background-color: #F49F1C;
+}
+
+#input-senha{
+    background-color: #F49F1C;
+}
+
+#btn-login{
+    background-color: #030E4F;
+    color: #F49F1C;
+}
+
+
 
 .tela-login h1 {
     margin-top: 35px;
