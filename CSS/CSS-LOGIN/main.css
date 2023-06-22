@@ -86,7 +86,10 @@ main {
 .ipt-senha {
     width: 90%;
 }
-
+#lb-checkbox{
+    margin-top: 10px;
+    font-size: 15px;
+}
 @media (max-width: 768px) {
     .tela-login {
         width: 90%;
