@@ -15,7 +15,8 @@ main {
 .tela-login hr {
     width: 90%;
     margin-top: -10px;
-    color: #F49F1C
+    color: #030E4F;
+   
 }
 
 .tela-login {
@@ -31,7 +32,6 @@ main {
 #input-email {
     color: #030E4F;
     border-color: #030E4F;
-
 }
 
 #btn-login {
@@ -89,6 +89,7 @@ main {
 #lb-checkbox{
     margin-top: 10px;
     font-size: 15px;
+    color: #030E4F;
 }
 @media (max-width: 768px) {
     .tela-login {
