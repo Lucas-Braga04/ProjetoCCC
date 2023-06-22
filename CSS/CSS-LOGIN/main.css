@@ -57,18 +57,15 @@ main {
 }
 
 .tela-login a {
-    font-size: 18px;
     color: #030E4F;
 }
 
 .tela-login label {
-    font-size: 18px;
     padding-top: 12px;
     color: #030E4F;
 }
 
 .tela-login span {
-    font-size: 18px;
     margin-top: 10px;
     align-self: flex-start;
     margin-left: 34px;
