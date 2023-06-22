@@ -97,7 +97,7 @@ main {
 
 .item {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 250px;
