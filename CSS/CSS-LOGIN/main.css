@@ -44,9 +44,8 @@ main a{
 #btn-login{
     background-color: #030E4F;
     color: #F49F1C;
+    border: none;
 }
-
-
 
 .tela-login h1 {
     margin-top: 35px;
