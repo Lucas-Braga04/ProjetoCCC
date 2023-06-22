@@ -13,10 +13,6 @@ main {
     background-color: #030E4F;
 }
 
-main a{
-    color: #030E4F;
-}
-
 .tela-login {
     display: flex;
     align-items: center;
@@ -26,10 +22,6 @@ main a{
     box-shadow: 0px 7px 15px 1px #00000073;
     border-radius: 10px;
     background-color: #F49F1C;
-}
-
-span{
-    color: #030E4F;
 }
 
 .form-control {
@@ -58,11 +50,16 @@ span{
     margin-bottom: 30px;
 }
 
+.tela-login a{
+    color: #030E4F;
+}
+
 .tela-login span {
     margin-top: 10px;
     align-self: flex-start;
     margin-left: 34px;
     margin-bottom: 10px;
+    color: #030E4F;
 }
 
 .tela-login div input {
