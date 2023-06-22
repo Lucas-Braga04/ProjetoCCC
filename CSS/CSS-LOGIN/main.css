@@ -54,6 +54,10 @@ main {
     color: #030E4F;
 }
 
+.tela-login h1{
+    color: #030E4F;
+}
+
 .tela-login span {
     margin-top: 10px;
     align-self: flex-start;
