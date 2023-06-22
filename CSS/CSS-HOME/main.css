@@ -1,18 +1,22 @@
 body {
-    width: 100vw;
     height: 100vh;
 }
 
 main {
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 #secao-banner {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 
@@ -21,4 +25,21 @@ main {
     padding: 0;
     width: 95%;
     height: 500px;
+    border-radius: 3px;
+}
+
+#secao-banner h1 {
+    position: absolute;
+    align-self: center;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+}
+
+#secao-banner a {
+    position: absolute;
+    margin: 50px;
 }
