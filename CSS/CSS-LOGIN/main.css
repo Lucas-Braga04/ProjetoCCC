@@ -36,7 +36,7 @@ main {
 
 .tela-login div input {
     border: none;
-    border-bottom: 1px solid #00000060;
+    border-left: 1px solid #00000060;
     border-radius: 0px;
 }
 
