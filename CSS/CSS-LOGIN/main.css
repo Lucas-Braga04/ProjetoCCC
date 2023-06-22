@@ -28,6 +28,10 @@ main a{
     background-color: #F49F1C;
 }
 
+span{
+    color: #030E4F;
+}
+
 .form-control {
     background-color: #F49F1C;
 }
@@ -35,10 +39,12 @@ main a{
 #input-email{
     background-color: #F49F1C;
     color: #030E4F;
+    border-color: #030E4F;
 }
 
 #input-senha{
     background-color: #F49F1C;
+    border-color: #030E4F;
 }
 
 #btn-login{
