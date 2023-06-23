@@ -9,6 +9,11 @@ nav {
     background-color: #030E4F;
 }
 
+#conteudo-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .navbar-nav .nav-link.active {
     color: #F49F1C;
 }
