@@ -13,7 +13,9 @@ main {
 
 main h3 {
     align-self: flex-start;
-    padding-left: 100px;
+    margin-left: 265px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #secao-banner {
@@ -77,10 +79,11 @@ main h3 {
 .arrow-left,
 .arrow-right {
     position: absolute;
+    margin-top: 150px;
     top: 0;
     left: 0;
     right: auto;
-    bottom: 0;
+    bottom: 1;
     cursor: pointer;
     background: transparent;
     border: none;
@@ -88,10 +91,11 @@ main h3 {
 
 .arrow-right {
     position: absolute;
+    margin-top: 150px;
     top: 0;
     left: auto;
     right: 0;
-    bottom: 0;
+    bottom: 1;
 }
 
 .arrow-left i,
