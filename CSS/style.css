@@ -14,6 +14,11 @@ nav {
     justify-content: space-evenly;
 }
 
+.navbar-toggler{
+    background-color: #F49F1C;
+    margin-right: 20px;
+}
+
 .navbar-nav .nav-link.active {
     color: #F49F1C;
 }
