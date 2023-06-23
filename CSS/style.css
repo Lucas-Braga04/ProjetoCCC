@@ -5,7 +5,7 @@
 }
 
 nav {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     background-color: gainsboro;
 }
@@ -13,4 +13,24 @@ nav {
 span a {
     padding: 8px 0px;
     margin-right: 40px;
+}
+
+footer {
+    position: absolute;
+    bottom: 100;
+    width: 100vw;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
