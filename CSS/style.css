@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
-nav {
+#nav {
     width: 100vw;
     background-color: #030E4F;
+    position: fixed;
+    z-index: 1000;
+    transition: top 0.3s;
+    top: 0;
 }
 
+#nav.sticky {
+    top: -10px; 
+  }
 #conteudo-nav {
     display: flex;
     justify-content: space-evenly;
