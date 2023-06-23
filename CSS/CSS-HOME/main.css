@@ -11,6 +11,7 @@ main {
     padding: 0;
 }
 
+
 main h3 {
     align-self: flex-start;
     padding-left: 100px;
@@ -53,6 +54,12 @@ main h3 {
     position: relative;
     max-width: 72%;
     margin: 0 auto;
+}
+
+.btn-primary {
+    border: #030E4F;
+    color: #030E4F;
+    background-color: #F49F1C;
 }
 
 .galeria-wrapper {

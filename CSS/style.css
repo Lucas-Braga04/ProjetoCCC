@@ -6,7 +6,19 @@
 
 nav {
     width: 100vw;
-    background-color: gainsboro;
+    background-color: #030E4F;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F49F1C;
+}
+
+.navbar-text a {
+    color: #F49F1C;
+}
+
+.nav-link {
+    color: #F49F1C;
 }
 
 .navbar-brand {
@@ -24,11 +36,16 @@ footer {
     width: 100vw;
 }
 
+li {
+    color: #F49F1C;
+}
+
 footer section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #030E4F;
 }
 
 .text-footer {
@@ -36,6 +53,19 @@ footer section {
     width: 100%;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.p-4 {
+    background-color: #030E4F;
+}
+
+.p-3 {
+    border-top: 2px solid #F49F1C;
+}
+
+#footer-link {
+    color: #F49F1C;
+    text-decoration: none;
 }
 
 .text-footer span {
@@ -57,4 +87,21 @@ footer section {
     .text-footer ul {
         padding: 15px;
     }
+}
+
+.navbar-text a:hover,
+.navbar-text a:focus {
+    color: #F49F1C;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #F49F1C;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #F49F1C;
+    color: #030E4F;
 }
