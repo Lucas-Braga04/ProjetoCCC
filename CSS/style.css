@@ -5,9 +5,12 @@
 }
 
 nav {
-    position: fixed;
     width: 100vw;
     background-color: gainsboro;
+}
+
+.navbar-brand {
+    margin-left: 16px;
 }
 
 span a {
@@ -32,5 +35,26 @@ footer section {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+}
+
+.text-footer span {
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 575px) {
+    #section-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-footer {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .text-footer ul {
+        padding: 15px;
+    }
 }
