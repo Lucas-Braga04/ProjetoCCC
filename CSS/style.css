@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
     width: 100vw;
     background-color: #030E4F;
+    box-shadow: 0px 0px 7px 2px #F49F1C;
 }
 
 .navbar-nav .nav-link.active {
@@ -65,7 +69,6 @@ footer section {
 
 #footer-link {
     color: #F49F1C;
-    text-decoration: none;
 }
 
 .text-footer span {
