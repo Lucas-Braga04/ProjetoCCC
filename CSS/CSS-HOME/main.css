@@ -51,12 +51,12 @@ main h3 {
 
 .container {
     position: relative;
-    max-width: 1200px;
+    max-width: 72%;
     margin: 0 auto;
 }
 
 .galeria-wrapper {
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .galeria-wrapper {
@@ -71,7 +71,7 @@ main h3 {
 .galeria {
     display: flex;
     flex-flow: row nowrap;
-    gap: 40px;
+    gap: 30px;
 }
 
 .arrow-left,
@@ -103,9 +103,11 @@ main h3 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     width: 250px;
     height: 400px;
     flex-shrink: 0;
+    padding: 15px;
 }
 
 .item img {
@@ -130,7 +132,7 @@ main h3 {
 .galeria2 {
     display: flex;
     flex-flow: row nowrap;
-    gap: 40px;
+    gap: 30px;
 }
 
 .arrow-left2,
@@ -165,9 +167,70 @@ main h3 {
     width: 250px;
     height: 400px;
     flex-shrink: 0;
+    padding: 15px;
 }
 
 .item2 img {
+    width: 100%;
+    height: 250px;
+}
+
+.galeria-wrapper3 {
+    overflow-x: auto;
+
+}
+
+.galeria-wrapper3 {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.galeria-wrapper3::-webkit-scrollbar {
+    display: none;
+}
+
+.galeria3 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 30px;
+}
+
+.arrow-left3,
+.arrow-right3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.arrow-right3 {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.arrow-left3 i,
+.arrow-right3 i {
+    font-size: 25px;
+}
+
+.item3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    flex-shrink: 0;
+    padding: 15px;
+}
+
+.item3 img {
     width: 100%;
     height: 250px;
 }
