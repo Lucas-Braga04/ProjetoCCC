@@ -32,7 +32,7 @@ main h3 {
 #img-banner {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 90%;
     height: 500px;
     border-radius: 3px;
 }
@@ -271,4 +271,11 @@ main h3 {
     background-image: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.desconto {
+    background-color: #030E4F;
+    color: #F49F1C;
+    padding: 0px 7px;
+    margin-top: 5px;
 }
