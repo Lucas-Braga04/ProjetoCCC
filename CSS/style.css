@@ -7,10 +7,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
+#nav {
     width: 100vw;
     background-color: #030E4F;
-    box-shadow: 0px 0px 7px 2px #F49F1C;
+    position: fixed;
+    z-index: 1000;
+    transition: top 0.3s;
+    top: 0;
+    box-shadow: 0px 0px 5px 3px #F49F1C;
+}
+
+#nav.sticky {
+    top: -10px;
 }
 
 #conteudo-nav {
@@ -18,7 +26,7 @@ nav {
     justify-content: space-evenly;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: #F49F1C;
     margin-right: 20px;
 }
