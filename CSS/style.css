@@ -50,6 +50,10 @@ footer {
     width: 100vw;
 }
 
+ul{
+    list-style: none;
+}
+
 li {
     color: #F49F1C;
 }
