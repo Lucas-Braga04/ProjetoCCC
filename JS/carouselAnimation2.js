@@ -24,7 +24,7 @@ controls2.forEach(control2 => {
         items2.forEach(item2 => item2.classList.remove('current-item2'));
 
         items2[currentItem2].scrollIntoView({
-            inline: "start",
+            inline: "center",
             behavior: "smooth"
         });
 
