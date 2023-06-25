@@ -1,0 +1,36 @@
+main nav {
+    margin-left: 50px;
+    display: flex;
+    align-self: flex-start;
+}
+
+nav ol a {
+    text-decoration: none;
+    color: #030E4F;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 70%;
+    border: 1px solid #030E4F;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.col-md-4 img {
+    height: 100%;
+}

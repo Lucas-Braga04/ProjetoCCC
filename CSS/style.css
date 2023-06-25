@@ -52,13 +52,7 @@ span a {
     margin-right: 40px;
 }
 
-footer {
-    position: absolute;
-    bottom: 100;
-    width: 100vw;
-}
-
-ul{
+ul {
     list-style: none;
 }
 
