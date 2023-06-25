@@ -68,6 +68,10 @@ footer section {
     background-color: #030E4F;
 }
 
+.text-center {
+    border-top: #F49F1C solid 2px;
+}
+
 .text-footer {
     display: flex;
     width: 100%;

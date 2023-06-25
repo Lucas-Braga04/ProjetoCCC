@@ -25,7 +25,8 @@ controls3.forEach(control3 => {
 
         items3[currentItem3].scrollIntoView({
             inline: "center",
-            behavior: "smooth"
+            behavior: "smooth",
+            block: "nearest"
         });
 
         items3[currentItem3].classList.add("current-item3");
