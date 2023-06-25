@@ -33,14 +33,43 @@
 
 .navbar-nav .nav-link.active {
     color: #F49F1C;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #030E4F;
+    background-color: #f49e1ca4;
+    border-radius: 3px;
 }
 
 .navbar-text a {
+    padding: 5px;
     color: #F49F1C;
+    font-weight: 600;
+}
+
+
+.navbar-text a:focus {
+    color: #F49F1C;
+}
+
+.navbar-text a:hover {
+    background-color: #f49e1ca4;
+    border-radius: 3px;
 }
 
 .nav-link {
     color: #F49F1C;
+    font-weight: 600;
+}
+
+.nav-link:focus {
+    color: #F49F1C;
+}
+
+.nav-link:hover {
+    background-color: #f49e1ca4;
+    border-radius: 3px;
 }
 
 .navbar-brand {
@@ -110,17 +139,6 @@ footer section {
     .text-footer ul {
         padding: 15px;
     }
-}
-
-.navbar-text a:hover,
-.navbar-text a:focus {
-    color: #F49F1C;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #F49F1C;
-
 }
 
 .btn-primary:hover,
