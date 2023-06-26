@@ -139,7 +139,7 @@ main h3 {
 
 .item img:hover {
     transition: all 0.4s ease;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
 }
 
 .galeria-wrapper2 {
@@ -216,7 +216,7 @@ main h3 {
 
 .item2 img:hover {
     transition: all 0.4s ease;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
 }
 
 .galeria-wrapper3 {
@@ -293,7 +293,7 @@ main h3 {
 
 .item3 img:hover {
     transition: all 0.4s ease;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
 }
 
 #scrollButton {
