@@ -1,0 +1,60 @@
+main nav {
+    margin-left: 50px;
+    display: flex;
+    align-self: flex-start;
+}
+
+nav ol a {
+    text-decoration: none;
+    color: #030E4F;
+    padding: 5px;
+}
+
+nav ol a:hover {
+    background-color: #f49e1ca4;
+    border-radius: 3px;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h2 {
+    margin-left: 50px;
+}
+
+.container-filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-filtros {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.conteudo-filtros li {
+    padding: 10px;
+    border: 1px solid #F49F1C;
+    color: #030E4F;
+    border-radius: 5px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.conteudo-filtros li:hover {
+    border: #030E4F solid 1px;
+    transition: all 0.4s ease;
+    background-color: #F49F1C;
+}
+
+#filtro-lista {
+    border: none;
+    cursor: auto;
+    background-color: white;
+}
