@@ -62,17 +62,128 @@
         <h2>Materiais de Construção</h2>
         <hr>
         <br>
-        <div class="container-filtros">
-            <ul class="conteudo-filtros">
-                <li id="filtro-lista">Ordene por: </li>
-                <li>Maior Relevância</li>
-                <li>Menor Preço</li>
-                <li>Mais Vendidos</li>
-                <li>Maior Preço</li>
-            </ul>
+        <div class="container-fluid container-filtros">
+            <span>Ordene por:</span>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck1">Maior Relevancia</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2">Menor Preço</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck3">Mais Vendidos</label>
+
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck4">Maior Preço</label>
+            </div>
         </div>
         <br>
-
+        <div class="container-fluid container-produtos">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Categoria
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Preço
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Marca
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Produto
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                            <div class="accordion-options">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Example</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
     </main>
     <script src="JS/showNavbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
