@@ -31,6 +31,10 @@ main h2 {
     align-items: center;
 }
 
+.btn-outline-primary {
+    border-radius: 0px;
+}
+
 #accordionFlushExample {
     width: 15%;
 }
@@ -40,4 +44,27 @@ main h2 {
     gap: 20px;
     width: 70%;
     align-items: end;
+}
+
+@media screen and (max-width: 575px) {
+    .container-filtros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-outline-primary {
+        width: 100%;
+    }
+
+    #accordionFlushExample {
+        width: 100%;
+    }
 }
