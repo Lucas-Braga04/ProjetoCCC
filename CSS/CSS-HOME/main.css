@@ -59,7 +59,7 @@ main h3 {
     margin: 0 auto;
 }
 
-.botao-quantidade{
+.botao-quantidade {
     background-color: #F49F1C;
     color: #030E4F;
     width: 33px;
@@ -68,9 +68,9 @@ main h3 {
 }
 
 .btn-primary {
-    border: #030E4F;
-    color: #030E4F;
-    background-color: #F49F1C;
+    border: #F49F1C 2px solid;
+    color: #F49F1C;
+    background-color: #030E4F;
 }
 
 .galeria-wrapper {
@@ -327,15 +327,9 @@ main h3 {
     background-repeat: no-repeat;
 }
 
-.desconto {
-    background-color: #030E4F;
-    color: #F49F1C;
-    padding: 0px 7px;
-    margin-top: 5px;
-}
-
 .stars i {
     color: #F49F1C;
+    background-color: #F49F1C;
 }
 
 @media screen and (max-width: 575px) {
@@ -360,12 +354,14 @@ main h3 {
 .img-modal {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     gap: 15px;
 }
 
 .img-modal img {
-    width: 90%;
+    width: 50%;
 }
 
 .img-modal img:hover {
@@ -375,7 +371,6 @@ main h3 {
 .sub-img-modal {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     width: 15%;
     gap: 15px;
 }
@@ -388,4 +383,5 @@ main h3 {
 .quantidade {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
