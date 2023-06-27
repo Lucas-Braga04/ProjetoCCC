@@ -339,6 +339,21 @@ main h3 {
         justify-content: center;
     }
 
+    .arrow-left,
+    .arrow-right {
+        display: none;
+    }
+
+    .arrow-left2,
+    .arrow-right2 {
+        display: none;
+    }
+
+    .arrow-left3,
+    .arrow-right3 {
+        display: none;
+    }
+
     main h3 {
         margin: 0;
         align-self: center;
