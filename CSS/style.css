@@ -60,6 +60,7 @@
 .nav-link {
     color: #F49F1C;
     font-weight: 600;
+    padding: 10px;
 }
 
 .nav-link:focus {
@@ -129,6 +130,10 @@ footer section {
         flex-direction: column;
     }
 
+    .nav-link {
+        padding: 8px 0px;
+    }
+
     .text-footer {
         flex-direction: column;
         display: flex;
@@ -145,7 +150,7 @@ footer section {
     color: #030E4F;
 }
 
-.btn-primary:focus{
+.btn-primary:focus {
     background-color: #030E4F;
     color: #F49F1C;
 }
