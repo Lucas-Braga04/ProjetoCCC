@@ -140,8 +140,12 @@ footer section {
     }
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:hover {
     background-color: #F49F1C;
     color: #030E4F;
+}
+
+.btn-primary:focus{
+    background-color: #030E4F;
+    color: #F49F1C;
 }
