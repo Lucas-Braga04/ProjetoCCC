@@ -95,7 +95,7 @@ main h2 {
 
 #buttom {
     width: 103px;
-    height: 45px;
+    height: 40px;
     display: block;
     margin-left: 20px;
 }
@@ -108,12 +108,13 @@ main h2 {
 }
 
 #inf-produto {
-    width: 50%;
+    width: 100%;
     height: 30%;
 }
 
 .ifn-produto h5 {
-    margin-top: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .ifn-produto p {
