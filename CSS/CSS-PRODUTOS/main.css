@@ -79,7 +79,7 @@ main h2 {
 .container {
     border: solid 1px #000000;
     width: 260px;
-    height: 330px;
+    height: 400px;
     margin-bottom: 15px;
     margin-left: 15px;
 }
@@ -214,8 +214,4 @@ main h2 {
 .custom-btn {
     border: #F49F1C 2px solid;
     color: #F49F1C;
-}
-
-.accordion-item {
-    width: 100%;
 }
