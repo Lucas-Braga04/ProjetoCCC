@@ -181,6 +181,8 @@ main h2 {
 
 .img-modal img {
     width: 50%;
+    border: 1px solid #030E4F;
+    border-radius: 5px;
 }
 
 .img-modal img:hover {
@@ -205,8 +207,15 @@ main h2 {
     align-items: baseline;
 }
 
-.btn-outline-primary {
-    background-color: #030E4F;
-    color: #F49F1C;
+.quantidade p {
+    width: 30%;
+}
+
+.custom-btn {
     border: #F49F1C 2px solid;
+    color: #F49F1C;
+}
+
+.accordion-item {
+    width: 100%;
 }
