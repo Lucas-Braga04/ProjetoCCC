@@ -35,6 +35,7 @@ main {
 
 .card p {
     text-align: justify;
+    line-height: 27px;
 }
 
 .col-md-4 img {
