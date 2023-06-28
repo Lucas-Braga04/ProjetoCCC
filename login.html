@@ -9,12 +9,20 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/CSS-LOGIN/main.css">
   <link rel="shortcut icon" href="IMG/ICON-CCC.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <main>
+
     <form class="tela-login">
-      <h1>LOGIN</h1>
+      <div id="botao-voltar">
+        <button class="btn btn-primary" id="botao-home" type="button"><a href="index.html"><i
+              class="fa-solid fa-arrow-right-to-bracket" style="color: #030e4f;"></i></a></button>
+        <h1>LOGIN</h1>
+      </div>
       <hr>
       <div class="ipt-email">
         <label for="input-email" class="form-label">Email:</label>
@@ -29,8 +37,7 @@
         <label for="lb-checkbox" id="lb-checkbox">Mostrar senha</label>
       </div>
       <button type="submit" id="btn-login" class="btn btn-primary">Enviar</button>
-      <span><a href="index.html">Voltar para a página inicial</a></span>
-      <span><a href="">Esqueceu a senha?</a></span>
+      <span>Esqueceu a Senha ?<a href=""> Recuperar</a></span>
       <span>Não possui cadastro? <a href="">Cadastre-se</a></span>
     </form>
   </main>
