@@ -39,6 +39,19 @@ main h2 {
     width: 15%;
 }
 
+.btn-primary {
+    background-color: #030E4F;
+    color: #F49F1C;
+    border: #F49F1C 2px solid;
+}
+
+.botao-quantidade {
+    max-width: 40px;
+    background-color: #F49F1C;
+    color: #030E4F;
+    border-radius: 10px;
+}
+
 .btn-group {
     display: flex;
     gap: 20px;
@@ -190,4 +203,10 @@ main h2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+.btn-outline-primary {
+    background-color: #030E4F;
+    color: #F49F1C;
+    border: #F49F1C 2px solid;
 }
