@@ -339,6 +339,14 @@ main h3 {
         justify-content: center;
     }
 
+    main h3 {
+        margin: 0;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
     .arrow-left,
     .arrow-right {
         display: none;
@@ -352,11 +360,6 @@ main h3 {
     .arrow-left3,
     .arrow-right3 {
         display: none;
-    }
-
-    main h3 {
-        margin: 0;
-        align-self: center;
     }
 }
 
