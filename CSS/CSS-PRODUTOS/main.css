@@ -62,8 +62,6 @@ main h2 {
     overflow: auto;
     flex-grow: 1;
     padding: 15px;
-   
-
 }
 .container{
     border: solid 1px #000000;
@@ -132,4 +130,45 @@ main h2 {
     #accordionFlushExample {
         width: 100%;
     }
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.img-modal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.img-modal img {
+    width: 50%;
+}
+
+.img-modal img:hover {
+    transform: scale(1.0, 1.0);
+}
+
+.sub-img-modal {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 15px;
+}
+
+.sub-img-modal img {
+    width: 60px;
+    height: 60px;
+}
+
+.quantidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
