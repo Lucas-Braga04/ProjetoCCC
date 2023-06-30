@@ -42,15 +42,76 @@
                 <span class="navbar-text">
                     <a class="nav-link" href="login.html">Login</a>
                 </span>
-                <span class="navbar-text">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </span>
+                <button class="btn btn-primary btn-carrinho" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                    style="background-color: #F49F1C;"><i class="fa-solid fa-cart-shopping"></i></button>
             </div>
         </div>
     </nav>
     <br>
     <br>
     <button id="scrollButton" onclick="scrollToTop()">↑</button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Meu Carrinho</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card-carrinho">
+                <div class="carrinho-topo">
+                    <span>Item Title 1</span>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+                <div class="carrinho-corpo">
+                    <div class="img-card-carrinho"><img src="IMG/CIMENTO.webp" alt="">
+                    </div>
+                    <div class="card-carrinho-info">
+                        <span>Valor: R$49,99</span>
+                        <span>Quantidade: 3</span>
+                        <span>Código do produto: #654879</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card-carrinho">
+                <div class="carrinho-topo">
+                    <span>Item Title 1</span>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+                <div class="carrinho-corpo">
+                    <div class="img-card-carrinho"><img src="IMG/ARGAMASSA.webp" alt="">
+                    </div>
+                    <div class="card-carrinho-info">
+                        <span>Valor: R$49,99</span>
+                        <span>Quantidade: 3</span>
+                        <span>Código do produto: #654879</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card-carrinho">
+                <div class="carrinho-topo">
+                    <span>Item Title 1</span>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </div>
+                <div class="carrinho-corpo">
+                    <div class="img-card-carrinho"><img src="IMG/PORCELANATOS.jpg   " alt="">
+                    </div>
+                    <div class="card-carrinho-info">
+                        <span>Valor: R$49,99</span>
+                        <span>Quantidade: 3</span>
+                        <span>Código do produto: #654879</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer">
+            <div class="finalizar-compra">
+                <span>Total: R$99,99</span>
+                <button type="button" class="btn btn-outline-secondary"><a href="#">Finalizar Compra</a></button>
+            </div>
+        </div>
+    </div>
     <main class="navbar-expand-sm">
         <div class="container-fluid navbar-expand-sm" id="secao-banner">
             <img src="IMG/BANNER-CCC.jpg" id="img-banner" class="img-fluid" alt="Banner Construção">
@@ -84,11 +145,11 @@
                                     </div>
                                     <div class="modal-body">
                                         <div class="img-modal">
-                                            <img src="IMG/DEFAULT-IMG.jpg" alt="">
+                                            <img src="IMG/CIMENTO.webp" alt="">
                                             <div class="sub-img-modal">
-                                                <img src="IMG/DEFAULT-IMG.jpg" alt="">
-                                                <img src="IMG/DEFAULT-IMG.jpg" alt="">
-                                                <img src="IMG/DEFAULT-IMG.jpg" alt="">
+                                                <img src="IMG/CIMENTO.webp" alt="">
+                                                <img src="IMG/CIMENTO.webp" alt="">
+                                                <img src="IMG/CIMENTO.webp" alt="">
                                             </div>
                                         </div>
                                         <br>
@@ -193,7 +254,7 @@
                                             <div class="sub-img-modal">
                                                 <img src="IMG/PORCELANATOS.jpg" alt="">
                                                 <img src="IMG/PORCELANATOS.jpg" alt="">
-                                                <img src="IMG/PORCELANATOS.jpg" alt="" width="30px">
+                                                <img src="IMG/PORCELANATOS.jpg" alt="">
                                             </div>
                                         </div>
                                         <br>
@@ -3282,9 +3343,9 @@
                 <br>
                 <div class="text-footer">
                     <ul>
-                        <li>example@domain.com</li>
-                        <li>example@domain.com</li>
-                        <li>example@domain.com</li>
+                        <li>equipe@ccc.com</li>
+                        <li>equipe@ccc.com</li>
+                        <li>equipe@ccc.com</li>
                     </ul>
                     <ul>
                         <li>(82)3333-3333</li>
