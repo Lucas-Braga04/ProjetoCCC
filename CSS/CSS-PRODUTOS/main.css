@@ -216,3 +216,34 @@ main h2 {
     border: #F49F1C 2px solid;
     color: #F49F1C;
 }
+
+.btn-saiba-mais {
+    background-color: #030E4F;
+    border: 2px solid #F49F1C;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-saiba-mais:hover {
+    transition: all 0.5s ease;
+    background-color: #F49F1C;
+    border: 2px solid #030E4F;
+}
+
+.btn-saiba-mais a {
+    text-decoration: none;
+    color: #F49F1C;
+    border-radius: 5px;
+    padding: 10px 16px;
+
+}
+
+.btn-saiba-mais a:hover {
+    transition: all 0.5s ease;
+    color: #030E4F;
+}
+
+.p-4 {
+    margin: 0px 265px;
+}
