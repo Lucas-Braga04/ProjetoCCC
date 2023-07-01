@@ -242,3 +242,30 @@ main .btn-primary:focus {
         display: none;
     }
 }
+
+.botao-modal-home {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-modal-home button {
+    border: 2px solid #F49F1C;
+    background-color: transparent;
+    color: #F49F1C;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botao-modal-home button:hover {
+    background-color: #030E4F;
+    transition: all 0.5s ease;
+}
+
+
+.botao-modal-home p {
+    color: green;
+    margin-top: 10px;
+}
