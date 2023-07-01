@@ -14,8 +14,8 @@
         display: flex;
         width: 60%;
         height: 600px;
-        margin: 0 auto;
         border: 1px solid #030E4F;
+        margin: 0 auto;
     }
 
     .info-finalizar-compra {
@@ -82,6 +82,33 @@
     }
 
     .topo-card button {
-        width: 8%;
+        width: 10%;
         padding: 7px 0px;
+    }
+
+    @media screen and (max-width: 950px) {
+
+        .container-finalizar-compra {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        .container-finalizar-compra {
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .info-finalizar-compra {
+            border: none;
+            width: 100%;
+        }
+
+        .produtos-finalizar-compras {
+            width: 100%;
+        }
+
+        .topo-card button {
+            width: 15%;
+        }
     }
