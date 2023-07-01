@@ -12,33 +12,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS-CADASTRO/main.css">
 </head>
 
 <body>
   <main>
 
-    <form class="tela-login" id="login-form">
+    <form class="tela-cadastro" id="cadastro-form">
       <div id="botao-voltar">
-        <button class="btn btn-primary" id="botao-home" type="button"><a href="index.html"><i
+        <button class="btn btn-primary" id="botao-home" type="button"><a href="login.html"><i
               class="fa-solid fa-arrow-right-to-bracket" style="color: #030e4f;"></i></a></button>
-        <h1>LOGIN</h1>
+        <h1>CADASTRO</h1>
       </div>
       <hr>
+      <div class="ipt-name">
+        <label for="ipt-name" class="form-label">Nome completo:</label>
+        <input type="text" class="form-control" name="name" id="ipt-name" placeholder="DIGITE SEU NOME COMPLETO"> 
+      </div>
       <div class="ipt-email">
         <label for="input-email" class="form-label">Email:</label>
         <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp"
           placeholder="DIGITE SEU EMAIL" required>
       </div>
+      <div class="sen-tel">
       <div class="ipt-senha">
         <label for="input-senha" class="form-label">Senha:</label>
         <input type="password" name="input-senha" class="form-control" id="input-senha" placeholder="DIGITE SUA SENHA"
           required>
-        <input type="checkbox" id="lb-checkbox" onclick="mostrarOcultarSenha()">
-        <label for="lb-checkbox" id="lb-checkbox">Mostrar senha</label>
       </div>
-      <button type="submit" id="btn-login" class="btn btn-primary">Enviar</button>
-      <span>Esqueceu a Senha ?<a href=""> Recuperar</a></span>
-      <span>Não possui cadastro? <a href="cadastro.html">Cadastre-se</a></span>
+      <div class="ipt-telefone">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="ipt-telefone" placeholder="DIGITE SEU TELEFONE" class="form-control">
+      </div>
+    </div>
+      <div class="ipt-conf-senha">
+        <label for="conf-senha">Confirmar senha </label>
+        <input type="password" name="conf-senha" id="conf-senha" class="form-control" placeholder="CONFIRMAR SENHA" required>
+      </div>
+      <button type="submit" id="btn-cadastro" class="btn btn-primary">Enviar</button>
     </form>
   </main>
   <script src="JS/showPassword.js"></script>

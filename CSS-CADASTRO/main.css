@@ -1,0 +1,92 @@
+.tela-cadastro hr {
+    width: 90%;
+    margin-top: -10px;
+    color: #030E4F;
+}
+.tela-cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35vw;
+    height: auto;
+    box-shadow: 0px 7px 15px 1px #00000073;
+    border-radius: 10px;
+}
+.tela-cadastro hr {
+    margin-bottom: 30px;
+}
+.tela-cadastro a {
+    font-size: 18px;
+    color: #f49f1c;
+    text-decoration: none;
+}
+.tela-cadastro label {
+    font-size: 18px;
+    padding-top: 12px;
+    color: #030E4F;
+}
+
+.tela-cadastro span {
+    font-size: 18px;
+    margin-top: 10px;
+    align-self: flex-start;
+    margin-left: 34px;
+    margin-bottom: 10px;
+    color: #030E4F;
+}
+.tela-cadastro div input {
+    border: none;
+    border-left: 1px solid #030E4F;
+    border-right: 1px solid #030E4F;
+    border-radius: 0px;
+}
+.tela-cadastro div input::placeholder {
+    font-size: 13px;
+}
+
+.tela-cadastro h1 {
+    padding-right: 75px;
+    color: #F49F1C;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.sen-tel{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.ipt-senha {
+    width: auto;
+}
+.ipt-name{
+    width: 90%;
+}
+.ipt-conf-senha{
+    width: 90%;
+}
+.ipt-conf-senha label{
+    margin-bottom: 10px;
+}
+.ipt-telefone label{
+    margin-bottom: 10px;
+}
+#btn-cadastro{
+    margin-top: 30px;
+    width: 90%;
+    background-color: #030E4F;
+    color: #F49F1C;
+    border: none;
+    margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+    .tela-cadastro {
+        width: 90%;
+    }
+}
