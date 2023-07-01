@@ -73,6 +73,7 @@ main .btn-primary {
     background-color: #030E4F;
     border: 2px solid #F49F1C;
     color: #F49F1C;
+    margin-bottom: 10px;
 }
 
 main .btn-primary:hover {
@@ -184,4 +185,60 @@ main .btn-primary:focus {
 .item img:hover {
     transition: all 0.4s ease;
     transform: scale(1.05, 1.05);
+}
+
+@media screen and (max-width: 1349px) {
+    .card-produto {
+        width: 95%;
+    }
+
+    .card-produto-info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card-produto {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-produto-img {
+        border: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-sub-img {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card-produto {
+        width: 90%;
+    }
+
+    .card-produto-img {
+        flex-direction: column;
+    }
+
+    .card-sub-img {
+        flex-direction: row;
+    }
+
+    .card-sub-img img {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card-sub-img {
+        display: none;
+    }
 }

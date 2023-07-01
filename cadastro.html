@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="CSS-CADASTRO/main.css">
+  <link rel="stylesheet" href="CSS/CSS-CADASTRO/main.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
       <hr>
       <div class="ipt-name">
         <label for="ipt-name" class="form-label">Nome completo:</label>
-        <input type="text" class="form-control" name="name" id="ipt-name" placeholder="DIGITE SEU NOME COMPLETO"> 
+        <input type="text" class="form-control" name="name" id="ipt-name" placeholder="DIGITE SEU NOME COMPLETO">
       </div>
       <div class="ipt-email">
         <label for="input-email" class="form-label">Email:</label>
@@ -35,19 +35,20 @@
           placeholder="DIGITE SEU EMAIL" required>
       </div>
       <div class="sen-tel">
-      <div class="ipt-senha">
-        <label for="input-senha" class="form-label">Senha:</label>
-        <input type="password" name="input-senha" class="form-control" id="input-senha" placeholder="DIGITE SUA SENHA"
-          required>
+        <div class="ipt-senha">
+          <label for="input-senha" class="form-label">Senha:</label>
+          <input type="password" name="input-senha" class="form-control" id="input-senha" placeholder="DIGITE SUA SENHA"
+            required>
+        </div>
+        <div class="ipt-telefone">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" name="telefone" id="ipt-telefone" placeholder="DIGITE SEU TELEFONE" class="form-control">
+        </div>
       </div>
-      <div class="ipt-telefone">
-        <label for="telefone">Telefone:</label>
-        <input type="tel" name="telefone" id="ipt-telefone" placeholder="DIGITE SEU TELEFONE" class="form-control">
-      </div>
-    </div>
       <div class="ipt-conf-senha">
         <label for="conf-senha">Confirmar senha </label>
-        <input type="password" name="conf-senha" id="conf-senha" class="form-control" placeholder="CONFIRMAR SENHA" required>
+        <input type="password" name="conf-senha" id="conf-senha" class="form-control" placeholder="CONFIRMAR SENHA"
+          required>
       </div>
       <button type="submit" id="btn-cadastro" class="btn btn-primary">Enviar</button>
     </form>
