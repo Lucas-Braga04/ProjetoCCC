@@ -1,0 +1,87 @@
+    body {
+        height: 100vh;
+    }
+
+    main {
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-finalizar-compra {
+        display: flex;
+        width: 60%;
+        height: 600px;
+        margin: 0 auto;
+        border: 1px solid #030E4F;
+    }
+
+    .info-finalizar-compra {
+        width: 40%;
+        border-right: 1px solid #030E4F;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-finalizar-compra h1 {
+        font-size: 25px;
+    }
+
+    .mb-3 {
+        width: 100%;
+    }
+
+    .info-finalizar-compra img {
+        width: 90%;
+    }
+
+    .produtos-finalizar-compras {
+        width: 60%;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lista-produtos {
+        height: 80%;
+        width: 100%;
+        margin-bottom: 20px;
+        overflow: auto;
+        padding: 5px;
+    }
+
+    .lista-produtos-card {
+        padding: 10px;
+        border: 1px solid #030E4F;
+        margin-bottom: 10px;
+    }
+
+    .produtos-finalizar-compras button {
+        border: 2px solid #F49F1C;
+        background-color: transparent;
+        color: #F49F1C;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .produtos-finalizar-compras button:hover {
+        background-color: #030E4F;
+        transition: all 0.5s ease;
+    }
+
+    .topo-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .topo-card button {
+        width: 8%;
+        padding: 7px 0px;
+    }

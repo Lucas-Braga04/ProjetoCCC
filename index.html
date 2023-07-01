@@ -56,7 +56,7 @@
             <h5 class="offcanvas-title" id="offcanvasRightLabel">Meu Carrinho</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
+        <div class="offcanvas-body" id="corpo-offcanvas">
             <div class="card-carrinho" id="card-carrinho">
                 <div class="carrinho-topo">
                     <span>Item Title 1</span>
@@ -107,8 +107,9 @@
         </div>
         <div class="offcanvas-footer">
             <div class="finalizar-compra">
-                <span>Total: R$99,99</span>
-                <button type="button" class="btn btn-outline-secondary"><a href="#">Finalizar Compra</a></button>
+                <span id="valor-total">Total: R$99,99</span>
+                <button type="button" class="btn btn-outline-secondary"><a href="finalizarCompra.html">Finalizar
+                        Compra</a></button>
             </div>
         </div>
     </div>
