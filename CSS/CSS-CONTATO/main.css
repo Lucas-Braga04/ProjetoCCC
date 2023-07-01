@@ -50,10 +50,14 @@ main {
 
 .col-md-4 {
     border: 2px solid #030E4F;
-    max-width: 50%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.form-label{
+.form-label {
     padding-top: 20px;
 }
 
@@ -65,17 +69,17 @@ main {
     margin-top: 10px;
 }
 
-.btn-primary-1:hover{
+.btn-primary-1:hover {
     background-color: #030E4F;
     color: #F49F1C;
 }
 
-.btn-primary-1:focus{
+.btn-primary-1:focus {
     background-color: #030E4F;
     color: #F49F1C;
 }
 
-textarea{
+textarea {
     resize: none;
 }
 
@@ -108,16 +112,19 @@ main {
     align-items: center;
     justify-content: center;
 }
-.col-md-8 div input{
+
+.col-md-8 div input {
     border: none;
     border-left: 1px solid #030E4F;
     border-right: 1px solid #030E4F;
     border-radius: 0px;
 }
+
 .col-md-8 div input::placeholder {
     font-size: 13px;
 }
-.col-md-8 div label{
+
+.col-md-8 div label {
     font-size: 18px;
     padding-top: 12px;
     color: #030E4F;
@@ -127,5 +134,9 @@ main {
 @media screen and (max-width: 575px) {
     .card {
         width: 90%;
+    }
+
+    .col-md-4 {
+        width: 100%;
     }
 }
