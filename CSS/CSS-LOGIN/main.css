@@ -101,11 +101,7 @@ main {
     color: #030E4F;
 }
 
-@media (max-width: 768px) {
-    .tela-login {
-        width: 90%;
-    }
-}
+
 
 #botao-home {
     display: flex;
@@ -140,4 +136,9 @@ main {
     align-items: center;
     justify-content: center;
     padding: 25px 0px;
+}
+@media (max-width: 768px) {
+    .tela-login {
+        width: 90%;
+    }
 }
