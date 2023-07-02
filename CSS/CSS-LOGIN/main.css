@@ -116,6 +116,10 @@ main {
     padding: 5px;
 }
 
+#botao-home:hover {
+    border: 2px solid #030E4F;
+}
+
 .btn-primary a {
     display: flex;
     align-items: center;
@@ -137,6 +141,7 @@ main {
     justify-content: center;
     padding: 25px 0px;
 }
+
 @media (max-width: 768px) {
     .tela-login {
         width: 90%;
