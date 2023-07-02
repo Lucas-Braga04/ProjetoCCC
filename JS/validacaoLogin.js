@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (email === 'admin@ccc.com' && senha === 'ccc123') {
             // Acesso permitido
             alert('Login bem-sucedido! Redirecionando para o sistema...');
-            window.location.href = 'index.html';
+            window.location.href = 'loginAprovado.html';
         } else {
             // Acesso negado
             alert('Email ou senha incorretos. Tente novamente.');
