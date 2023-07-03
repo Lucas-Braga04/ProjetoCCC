@@ -244,6 +244,7 @@ main h2 {
     color: #030E4F;
 }
 
-.p-4 {
-    margin: 0px 265px;
+.text-footer {
+    display: flex;
+    justify-content: space-around;
 }
