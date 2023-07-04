@@ -185,6 +185,14 @@ footer section {
     width: 100%;
     border: 1px solid #030E4F;
     border-radius: 4px;
+    padding: 15px;
+}
+
+.tituloProduto {
+    padding-right: 185px;
+    text-transform: uppercase;
+    color: #030E4F;
+    font-size: 18px;
 }
 
 .carrinho-topo {

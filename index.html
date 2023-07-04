@@ -58,44 +58,38 @@
         </div>
         <div class="offcanvas-body" id="corpo-offcanvas">
             <div class="card-carrinho" id="card-carrinho">
-                <div class="carrinho-topo">
-                    <span>Item Title 1</span>
-                    <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv()"></button>
-                </div>
-                <div class="carrinho-corpo">
-                    <div class="img-card-carrinho"><img src="IMG/CIMENTO.webp" alt="">
-                    </div>
-                    <div class="card-carrinho-info">
-                        <span>Valor: R$49,99</span>
-                        <span>Quantidade: 3</span>
-                        <span>Código do produto: #654879</span>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="card-carrinho" id="card-carrinho">
-                <div class="carrinho-topo">
-                    <span>Item Title 1</span>
-                    <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv()"></button>
-                </div>
-                <div class="carrinho-corpo">
-                    <div class="img-card-carrinho"><img src="IMG/ARGAMASSA.webp" alt="">
-                    </div>
-                    <div class="card-carrinho-info">
-                        <span>Valor: R$49,99</span>
-                        <span>Quantidade: 3</span>
-                        <span>Código do produto: #654879</span>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="card-carrinho" id="card-carrinho">
-                <div class="carrinho-topo">
-                    <span>Item Title 1</span>
-                    <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv()"></button>
-                </div>
+                <span class="tituloProduto">Item Title 1</span>
+                <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv(this)"></button>
                 <div class="carrinho-corpo">
                     <div class="img-card-carrinho"><img src="IMG/PORCELANATOS.jpg   " alt="">
+                    </div>
+                    <div class="card-carrinho-info">
+                        <span>Valor: R$49,99</span>
+                        <span>Quantidade: 3</span>
+                        <span>Código do produto: #654879</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card-carrinho" id="card-carrinho">
+                <span class="tituloProduto">Item Title 2</span>
+                <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv(this)"></button>
+                <div class="carrinho-corpo">
+                    <div class="img-card-carrinho"><img src="IMG/ARGAMASSA.webp   " alt="">
+                    </div>
+                    <div class="card-carrinho-info">
+                        <span>Valor: R$49,99</span>
+                        <span>Quantidade: 3</span>
+                        <span>Código do produto: #654879</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card-carrinho" id="card-carrinho">
+                <span class="tituloProduto">Item Title 3</span>
+                <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv(this)"></button>
+                <div class="carrinho-corpo">
+                    <div class="img-card-carrinho"><img src="IMG/CIMENTO.webp   " alt="">
                     </div>
                     <div class="card-carrinho-info">
                         <span>Valor: R$49,99</span>
@@ -107,7 +101,7 @@
         </div>
         <div class="offcanvas-footer">
             <div class="finalizar-compra">
-                <span id="valor-total">Total: R$99,99</span>
+                <span id="valor-total">Total: R$449,91</span>
                 <button type="button" class="btn btn-outline-secondary"><a href="login.html">Finalizar
                         Compra</a></button>
             </div>
@@ -156,7 +150,8 @@
                                         <br>
                                         <p>Nome do Produto</p>
                                         <div class="quantidade">
-                                            <p>Preço: R$49,99</p>
+                                            <p>Preço:</p>
+                                            <span>R$49,99</span>
                                             <button class="botao-quantidade" onclick="alterarQuantidade(-1)">-</button>
                                             <div>Quantidade: <span id="quantidade">0</span></div>
                                             <button class="botao-quantidade" onclick="alterarQuantidade(1)">+</button>
