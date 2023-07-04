@@ -9,13 +9,11 @@ document.addEventListener('DOMContentLoaded', function () {
         var email = emailInput.value;
         var senha = senhaInput.value;
 
-        // Verificar se o email e a senha estão corretos
         if (email === 'admin@ccc.com' && senha === 'ccc123') {
             // Acesso permitido
             alert('Login bem-sucedido! Redirecionando para o sistema...');
             window.location.href = 'home-login.html';
         } else {
-            // Acesso negado
             alert('Email ou senha incorretos. Tente novamente.');
 
         }

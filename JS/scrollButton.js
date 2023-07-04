@@ -1,7 +1,7 @@
 const scrollButton = document.getElementById('scrollButton');
 
 window.addEventListener('scroll', () => {
-    if (window.pageYOffset > 300) { // Altura em pixels a partir da qual o botão deve aparecer
+    if (window.pageYOffset > 300) {
         scrollButton.style.display = 'block';
     } else {
         scrollButton.style.display = 'none';

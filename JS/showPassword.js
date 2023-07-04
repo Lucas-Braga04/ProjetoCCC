@@ -1,4 +1,3 @@
-
 function mostrarOcultarSenha() {
     var senhaInput = document.getElementById("input-senha");
     var checkbox = document.getElementById("lb-checkbox");
