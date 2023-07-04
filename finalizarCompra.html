@@ -115,29 +115,6 @@
     </div>
     <main class="navbar-expand-sm">
         <div class="container-finalizar-compra">
-            <div class="info-finalizar-compra">
-                <h1>Informações Pessoais</h1>
-                <br>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Informe seu Nome Completo</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="INSIRA SEU NOME COMPLETO">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Informe seu CPF</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="___-___-___-__">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Informe seu Endereço</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput"
-                        placeholder="INSIRA SEU ENDEREÇO">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Data de Nascimento</label>
-                    <input type="date" class="form-control" id="formGroupExampleInput2">
-                </div>
-                <img src="IMG/LOGO-CCC.png" alt="">
-            </div>
             <div class="produtos-finalizar-compras">
                 <div class="lista-produtos">
                     <div class="lista-produtos-card" id="lista-produtos-card">
@@ -196,7 +173,56 @@
                 <div class="buttons">
                     <button>Compre Agora</button>
                     <span>ou</span>
-                    <button>Retirar na Loja</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        id="btn-retirar-loja">
+                        Retire na Loja
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Retire na Loja</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="info-finalizar-compra">
+                                        <h1>Informações Pessoais</h1>
+                                        <br>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Informe seu Nome
+                                                Completo</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                                placeholder="INSIRA SEU NOME COMPLETO">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">Informe seu
+                                                CPF</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                                placeholder="___-___-___-__">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput" class="form-label">Informe seu
+                                                Endereço</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                                placeholder="INSIRA SEU ENDEREÇO">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formGroupExampleInput2" class="form-label">Data de
+                                                Nascimento</label>
+                                            <input type="date" class="form-control" id="formGroupExampleInput2">
+                                        </div>
+                                        <img src="IMG/LOGO-CCC.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" id="btn-retirar-loja">Retirar na
+                                        Loja</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <br>

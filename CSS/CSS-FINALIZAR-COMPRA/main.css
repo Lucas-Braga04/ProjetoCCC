@@ -19,8 +19,7 @@
     }
 
     .info-finalizar-compra {
-        width: 40%;
-        border-right: 1px solid #030E4F;
+        width: 100%;
         padding: 15px;
         display: flex;
         flex-direction: column;
@@ -40,7 +39,7 @@
     }
 
     .produtos-finalizar-compras {
-        width: 60%;
+        width: 100%;
         padding: 0px 10px;
         display: flex;
         flex-direction: column;
@@ -89,6 +88,17 @@
     .buttons span {
         padding: 10px 10px;
     }
+
+    #btn-retirar-loja {
+        background-color: transparent;
+        color: #F49F1C;
+    }
+
+    #btn-retirar-loja:hover {
+        background-color: #030E4F;
+        border-color: #F49F1C;
+    }
+
 
     @media screen and (max-width: 950px) {
 
