@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fale Conosco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/CSS-CONTATO/main.css">
+    <link rel="shortcut icon" href="IMG/ICON-CCC.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-none" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="IMG/LOGO-CCC.png" alt="" width="140px"
+                    height="60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home-login.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato-login.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos-login.html">Produtos</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="login.html">Logout</a>
+                </span>
+                <button class="btn btn-primary btn-carrinho" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                    style="background-color: #F49F1C;"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <button id="scrollButton" onclick="scrollToTop()">↑</button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Meu Carrinho</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="corpo-offcanvas">
+        </div>
+        <div class="offcanvas-footer">
+            <div class="finalizar-compra">
+                <span id="valor-total"></span>
+                <button type="button" class="btn btn-outline-secondary"><a href="finalizarCompra.html">Finalizar
+                        Compra</a></button>
+            </div>
+        </div>
+    </div>
+    <main class="navbar-expand-sm">
+        <br>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contato</li>
+            </ol>
+        </nav>
+        <br>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <h5 class="card-title">Entre em contato</h5>
+                    <p class="card-empresa"> Av.Augustinho Carrara Taxista Brabo, 68, Maceió-AL</p>
+                    <p class="card-empresa">equipe@ccc.com</p>
+                    <p class="card-empresa">(82)3333-3333</p>
+                    <img src="IMG/LOGO-CCC.png" alt="" width="250px">
+                </div>
+                <div class="col-md-8">
+                    <form action="">
+                        <div class="row">
+                            <div class="col">
+                                <label for="name">Nome:</label>
+                                <input type="text" class="form-control" name="name" placeholder="INSIRA SEU NOME"
+                                    required>
+                            </div>
+                            <div class="col">
+                                <label for="">Email:</label>
+                                <input type="email" class="form-control" placeholder="INSIRA SEU EMAIL" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Telefone:</label>
+                                <input type="tel" class="form-control" placeholder="INSIRA SEU TELEFONE" required>
+                            </div>
+                            <div class="col">
+                                <label for="">Endereço:</label>
+                                <input type="text" class="form-control" placeholder="INSIRA SEU ENDEREÇO" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Assunto:</label>
+                            <input type="text" class="form-control" placeholder="INSIRA O ASSUNTO" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+                            <textarea class="form-control" placeholder="INSIRA AQUI SUA MENSAGEM" rows="10"></textarea>
+                            <button type="submit" class="btn btn-primary-1"
+                                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+    </main>
+    <footer class=" text-center" style="background-color:#030E4F;">
+        <div class="container p-4">
+            <section class="mb-4" id="section-footer">
+                <img src="IMG/LOGO-CCC.png" alt="" width="200px" height="100px">
+                <br>
+                <div class="text-footer">
+                    <ul>
+                        <li>equipe@ccc.com</li>
+                        <li>equipe@ccc.com</li>
+                        <li>equipe@ccc.com</li>
+                    </ul>
+                    <ul>
+                        <li>(82)3333-3333</li>
+                        <li>(82)3333-3333</li>
+                        <li>(82)3333-3333</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="color: #F49F1C">
+            Av.Augustinho Carrara Taxista Brabo, 68, Maceió-AL © 2023 Copyright:
+            <a id="footer-link" href="sobre.html">CCC</a>
+        </div>
+    </footer>
+    <script src="JS/showNavbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="JS/carouselAnimation.js"></script>
+    <script src="JS/carouselAnimation2.js"></script>
+    <script src="JS/carouselAnimation3.js"></script>
+    <script src="JS/scrollButton.js"></script>
+    <script src="JS/quantidadeMais.js"></script>
+    <script src="JS/apagarConteudoCarrinho.js"></script>
+    <script src="JS/adicionarConteudoCarrinho.js"></script>
+</body>
+
+</html>
