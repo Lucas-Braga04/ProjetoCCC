@@ -1,4 +1,5 @@
-function removerDiv() {
-    var div = document.getElementById("card-carrinho");
-    div.remove();
+function removerDiv(botao) {
+    var divPai = botao.parentNode;
+
+    divPai.remove();
 }
