@@ -8,9 +8,9 @@ controls2.forEach(control2 => {
         const isLeft = control2.classList.contains('arrow-left2');
 
         if (isLeft) {
-            currentItem2 -= 4;
+            currentItem2 -= 3;
         } else {
-            currentItem2 += 4;
+            currentItem2 += 3;
         }
 
         if (currentItem2 >= maxItems2) {
