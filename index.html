@@ -57,51 +57,10 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body" id="corpo-offcanvas">
-            <div class="card-carrinho" id="card-carrinho">
-                <span class="tituloProduto">Item Title 1</span>
-                <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv(this)"></button>
-                <div class="carrinho-corpo">
-                    <div class="img-card-carrinho"><img src="IMG/PORCELANATOS.jpg   " alt="">
-                    </div>
-                    <div class="card-carrinho-info">
-                        <span>Valor: R$49,99</span>
-                        <span>Quantidade: 3</span>
-                        <span>Código do produto: #654879</span>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="card-carrinho" id="card-carrinho">
-                <span class="tituloProduto">Item Title 2</span>
-                <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv(this)"></button>
-                <div class="carrinho-corpo">
-                    <div class="img-card-carrinho"><img src="IMG/ARGAMASSA.webp   " alt="">
-                    </div>
-                    <div class="card-carrinho-info">
-                        <span>Valor: R$49,99</span>
-                        <span>Quantidade: 3</span>
-                        <span>Código do produto: #654879</span>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="card-carrinho" id="card-carrinho">
-                <span class="tituloProduto">Item Title 3</span>
-                <button type="button" class="btn-close" aria-label="Close" onclick="removerDiv(this)"></button>
-                <div class="carrinho-corpo">
-                    <div class="img-card-carrinho"><img src="IMG/CIMENTO.webp   " alt="">
-                    </div>
-                    <div class="card-carrinho-info">
-                        <span>Valor: R$49,99</span>
-                        <span>Quantidade: 3</span>
-                        <span>Código do produto: #654879</span>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="offcanvas-footer">
             <div class="finalizar-compra">
-                <span id="valor-total">Total: R$449,91</span>
+                <span id="valor-total"></span>
                 <button type="button" class="btn btn-outline-secondary"><a href="login.html">Finalizar
                         Compra</a></button>
             </div>
@@ -221,7 +180,8 @@
                                         </div>
                                     </div>
                                     <div class="botao-modal-home">
-                                        <button id="botao-home-carrinho" onclick="mensagemConfirmacao()">Adicionar ao
+                                        <button id="botao-home-carrinho"
+                                            onclick="mensagemConfirmacao(), addCimento()">Adicionar ao
                                             Carrinho</button>
                                         <br>
                                     </div>
@@ -328,7 +288,8 @@
                                         </div>
                                     </div>
                                     <div class="botao-modal-home">
-                                        <button id="botao-home-carrinho" onclick="mensagemConfirmacao()">Adicionar ao
+                                        <button id="botao-home-carrinho"
+                                            onclick="mensagemConfirmacao(), addPorcelanato()">Adicionar ao
                                             Carrinho</button>
                                         <br>
                                     </div>
@@ -3427,6 +3388,7 @@
     <script src="JS/quantidadeMais.js"></script>
     <script src="JS/mensagemDeConfirmacao.js"></script>
     <script src="JS/apagarConteudoCarrinho.js"></script>
+    <script src="JS/adicionarConteudoCarrinho.js"></script>
 </body>
 
 </html>
