@@ -3,8 +3,8 @@ function atualizarQuantidade(btn, incremento) {
     let quantidade = parseInt(quantidadeElemento.textContent);
     quantidade += incremento;
 
-    if (quantidade < 0) {
-        quantidade = 0;
+    if (quantidade < 1) {
+        quantidade = 1;
     }
 
     quantidadeElemento.textContent = quantidade;
