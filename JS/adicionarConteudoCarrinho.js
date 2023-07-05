@@ -35,7 +35,9 @@ function addCimento() {
     spanValor.innerHTML = "Valor: R$<span class='valores'>49,99</span>";
     divInfoCarrinho.appendChild(spanValor);
     var spanQuantidade = document.createElement("span");
-    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>1</span>";
+    var valorDiv = document.getElementById('valorDiv1');
+    var valor = valorDiv.textContent;
+    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>" + valor + "</span>";
     divInfoCarrinho.appendChild(spanQuantidade);
     var spanCodigo = document.createElement("span");
     spanCodigo.innerHTML = "Código do produto: #654879";
@@ -94,7 +96,9 @@ function addPorcelanato() {
     spanValor.innerHTML = "Valor: R$<span class='valores'>69,50</span>";
     divInfoCarrinho.appendChild(spanValor);
     var spanQuantidade = document.createElement("span");
-    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>1</span>";
+    var valorDiv = document.getElementById('valorDiv2');
+    var valor = valorDiv.textContent;
+    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>" + valor + "</span>";
     divInfoCarrinho.appendChild(spanQuantidade);
     var spanCodigo = document.createElement("span");
     spanCodigo.innerHTML = "Código do produto: #23498";
@@ -153,7 +157,9 @@ function addArgamassa() {
     spanValor.innerHTML = "Valor: R$<span class='valores'>39,99</span>";
     divInfoCarrinho.appendChild(spanValor);
     var spanQuantidade = document.createElement("span");
-    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>1</span>";
+    var valorDiv = document.getElementById('valorDiv3');
+    var valor = valorDiv.textContent;
+    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>" + valor + "</span>";
     divInfoCarrinho.appendChild(spanQuantidade);
     var spanCodigo = document.createElement("span");
     spanCodigo.innerHTML = "Código do produto: #65781";
@@ -212,7 +218,9 @@ function addAlicate() {
     spanValor.innerHTML = "Valor: R$<span class='valores'>80,00</span>";
     divInfoCarrinho.appendChild(spanValor);
     var spanQuantidade = document.createElement("span");
-    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>1</span>";
+    var valorDiv = document.getElementById('valorDiv4');
+    var valor = valorDiv.textContent;
+    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>" + valor + "</span>";
     divInfoCarrinho.appendChild(spanQuantidade);
     var spanCodigo = document.createElement("span");
     spanCodigo.innerHTML = "Código do produto: #31972";
@@ -271,7 +279,9 @@ function addFerro() {
     spanValor.innerHTML = "Valor: R$<span class='valores'>100,00</span>";
     divInfoCarrinho.appendChild(spanValor);
     var spanQuantidade = document.createElement("span");
-    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>1</span>";
+    var valorDiv = document.getElementById('valorDiv5');
+    var valor = valorDiv.textContent;
+    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>" + valor + "</span>";
     divInfoCarrinho.appendChild(spanQuantidade);
     var spanCodigo = document.createElement("span");
     spanCodigo.innerHTML = "Código do produto: #18900";
@@ -330,7 +340,9 @@ function addTijolo() {
     spanValor.innerHTML = "Valor: R$<span class='valores'>15,00</span>";
     divInfoCarrinho.appendChild(spanValor);
     var spanQuantidade = document.createElement("span");
-    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>1</span>";
+    var valorDiv = document.getElementById('valorDiv6');
+    var valor = valorDiv.textContent;
+    spanQuantidade.innerHTML = "Quantidade: <span class='quantidade-itens'>" + valor + "</span>";
     divInfoCarrinho.appendChild(spanQuantidade);
     var spanCodigo = document.createElement("span");
     spanCodigo.innerHTML = "Código do produto: #98333";

@@ -1,12 +1,35 @@
-function alterarQuantidade(valor) {
-    var quantidadeElemento = document.getElementById('quantidade');
-    var quantidade = parseInt(quantidadeElemento.innerHTML);
-
-    quantidade += valor;
+function atualizarQuantidade(btn, incremento) {
+    const quantidadeElemento = btn.parentNode.querySelector('.quantidade');
+    let quantidade = parseInt(quantidadeElemento.textContent);
+    quantidade += incremento;
 
     if (quantidade < 0) {
         quantidade = 0;
     }
 
-    quantidadeElemento.innerHTML = quantidade;
+    quantidadeElemento.textContent = quantidade;
 }
+
+function adicionarUm(btn) {
+    atualizarQuantidade(btn, 1);
+}
+
+function subtrairUm(btn) {
+    atualizarQuantidade(btn, -1);
+}
+
+// Vincule os botões às funções de clique
+const botoesAdicionar = document.querySelectorAll('.botao-adicionar');
+const botoesSubtrair = document.querySelectorAll('.botao-subtrair');
+
+botoesAdicionar.forEach((botao) => {
+    botao.addEventListener('click', () => {
+        adicionarUm(botao);
+    });
+});
+
+botoesSubtrair.forEach((botao) => {
+    botao.addEventListener('click', () => {
+        subtrairUm(botao);
+    });
+});

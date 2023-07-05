@@ -393,7 +393,7 @@ main h3 {
     height: 60px;
 }
 
-.quantidade {
+.quantidades {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
