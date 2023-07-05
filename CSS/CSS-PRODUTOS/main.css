@@ -115,6 +115,8 @@ main h2 {
 .ifn-produto h5 {
     width: 100%;
     height: 100%;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
 
 .ifn-produto p {
