@@ -327,11 +327,6 @@ main h3 {
     background-repeat: no-repeat;
 }
 
-.stars i {
-    color: #F49F1C;
-    background-color: #F49F1C;
-}
-
 @media screen and (max-width: 575px) {
     main {
         display: flex;

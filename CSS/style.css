@@ -190,10 +190,13 @@ footer section {
 }
 
 .tituloProduto {
-    padding-right: 185px;
     text-transform: uppercase;
     color: #030E4F;
     font-size: 18px;
+}
+
+.btn-close {
+    margin-right: 10px;
 }
 
 .carrinho-topo {
