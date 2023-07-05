@@ -1,6 +1,7 @@
 function atualizarQuantidade(btn, incremento) {
     const quantidadeElemento = btn.parentNode.querySelector('.quantidade');
     let quantidade = parseInt(quantidadeElemento.textContent);
+    quantidade = 1;
     quantidade += incremento;
 
     if (quantidade < 1) {
