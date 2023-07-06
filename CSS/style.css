@@ -120,7 +120,7 @@ footer section {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: flex-end;
+    margin-bottom: 50px;
 }
 
 .p-4 {
