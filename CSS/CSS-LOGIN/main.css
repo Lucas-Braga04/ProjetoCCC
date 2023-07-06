@@ -76,11 +76,13 @@ main {
     color: #030E4F;
 }
 
-.tela-login div input {
-    border: none;
-    border-left: 1px solid #030E4F;
-    border-right: 1px solid #030E4F;
-    border-radius: 0px;
+.tela-login div input {    
+    border-radius: 10px;
+    border: solid 1px #f49f1c;
+}
+#input-email{
+    border-radius: 10px;
+    border: solid 1px #f49f1c;
 }
 
 .tela-login div input::placeholder {
@@ -109,7 +111,7 @@ main {
     align-items: center;
     width: 65px;
     height: 55px;
-    border-radius: 50%;
+    border-radius: 10px;
     background-color: #F49F1C;
     border: none;
     margin-left: 35px;

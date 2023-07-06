@@ -115,10 +115,8 @@ main {
 }
 
 .col-md-8 div input {
-    border: none;
-    border-left: 1px solid #030E4F;
-    border-right: 1px solid #030E4F;
-    border-radius: 0px;
+    border-radius: 10px;
+    border: solid 1px #f49f1c;
 }
 
 .col-md-8 div input::placeholder {
@@ -131,7 +129,9 @@ main {
     color: #030E4F;
     margin-bottom: 10px;
 }
-
+.mb-3 textarea{
+    border:solid 1px #F49F1C;
+}
 @media screen and (max-width: 575px) {
     .card {
         width: 90%;

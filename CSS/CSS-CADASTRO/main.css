@@ -35,10 +35,8 @@
     color: #030E4F;
 }
 .tela-cadastro div input {
-    border: none;
-    border-left: 1px solid #030E4F;
-    border-right: 1px solid #030E4F;
-    border-radius: 0px;
+    border-radius: 10px;
+    border: solid 1px #f49f1c;
 }
 .tela-cadastro div input::placeholder {
     font-size: 13px;
