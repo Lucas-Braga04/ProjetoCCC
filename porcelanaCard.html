@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>#Porcelanato-Z63</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/CSS-CARD-PRODUTOS/main.css">
+    <link rel="shortcut icon" href="IMG/ICON-CCC.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-none" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="IMG/LOGO-CCC.png" alt="" width="140px"
+                    height="60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="login.html">Login</a>
+                </span>
+                <br>
+                <button class="btn btn-primary btn-carrinho" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                    style="background-color: #F49F1C;"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <button id="scrollButton" onclick="scrollToTop()">↑</button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Meu Carrinho</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="corpo-offcanvas">
+        </div>
+        <div class="offcanvas-footer">
+            <div class="finalizar-compra">
+                <span id="valor-total"></span>
+                <button type="button" class="btn btn-outline-secondary"><a href="login.html">Finalizar
+                        Compra</a></button>
+            </div>
+        </div>
+    </div>
+    <main class="navbar-expand-sm">
+        <br>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page"><a href="produtos.html">Produtos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Item n° 4</li>
+            </ol>
+        </nav>
+        <br>
+        <div class="container-fluid card-produto">
+            <div class="card-produto-img">
+                <img src="IMG/PORCELANATOS.jpg" alt="">
+                <div class="card-sub-img">
+                    <img src="IMG/PORCELANATOS.jpg" alt="" width="50px" height="120px">
+                    <img src="IMG/PORCELANATOS.jpg" alt="" width="50px" height="120px">
+                    <img src="IMG/PORCELANATOS.jpg" alt="" width="50px" height="120px">
+                </div>
+            </div>
+            <div class="card-produto-info">
+                <h2>Porcelanato-Z63</h2>
+                <h3>Preço: R$69,50</h3>
+                <h4>Código do Produto: #23498</h4>
+                <br>
+                <div class="quantidade">
+                    <button class="botao-subtrair botao-quantidade">-</button>
+                    <div>Quantidade: <span class="quantidade">1</span></div>
+                    <button class="botao-adicionar botao-quantidade">+</button>
+                </div>
+                <br>
+                <div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Detalhes do Produto
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this
+                                    accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first
+                                    item's accordion body.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Politica de Devolução e Reembolso
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this
+                                    accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the second
+                                    item's accordion body. Let's imagine this being filled with
+                                    some actual content.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Informações de Retirada
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this
+                                    accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the third
+                                    item's accordion body. Nothing more exciting happening here
+                                    in terms of content, but just filling up the space to make
+                                    it look, at least at first glance, a bit more representative
+                                    of how this would look in a real-world application.
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="botao-add-carrinho">
+                            <div class="botao-modal-home">
+                                <button id="botao-home-carrinho" onclick="mensagemConfirmacao(), addCimento()">Adicionar
+                                    ao
+                                    Carrinho</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </main>
+    <footer class=" text-center" style="background-color:#030E4F;">
+        <div class="container p-4">
+            <section class="mb-4" id="section-footer">
+                <img src="IMG/LOGO-CCC.png" alt="" width="200px" height="100px">
+                <br>
+                <div class="text-footer">
+                    <ul>
+                        <li>equipe@ccc.com</li>
+                    </ul>
+                    <ul>
+                        <li>(82)3333-3333</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="color: #F49F1C">
+            Av.Augustinho Carrara Taxista Brabo, 68, Maceió-AL © 2023 Copyright:
+            <a id="footer-link" href="sobre.html">CCC</a>
+        </div>
+    </footer>
+
+    <script src="JS/showNavbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="JS/carouselAnimation.js"></script>
+    <script src="JS/scrollButton.js"></script>
+    <script src="JS/quantidadeMais.js"></script>
+    <script src="JS/mensagemDeConfirmacao.js"></script>
+    <script src="JS/apagarConteudoCarrinho.js"></script>
+    <script src="JS/adicionarConteudoCarrinho.js"></script>
+</body>
+
+</html>
