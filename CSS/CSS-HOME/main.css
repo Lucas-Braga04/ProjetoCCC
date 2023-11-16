@@ -11,6 +11,24 @@ main {
     padding: 0px 0px;
 }
 
+#descontos {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#descontos span {
+    border: 1px solid #030E4F;
+    padding: 1px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #F49F1C;
+    color: #030E4F;
+}
+
 
 main h3 {
     align-self: flex-start;
